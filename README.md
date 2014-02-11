@@ -1,4 +1,4 @@
-multicolumn_sorting	{#welcome}
+Multicolumn Sorting List
 =====================
 
 Demo implementation of multicolumn list sorting.
@@ -37,5 +37,12 @@ you have to add **"common-lang3.jar"** into Build Path.
  >3. Now just click on **Run**.
 
 
+----------
+
+ - Sorted List on the basis of **name**, **job title**, **age**, **salary** respectively.
+
+ ![Sorted List on the basis of name, job title, age, salary respectively][2]
+
+
   [1]: http://www.java2s.com/Code/Jar/c/Downloadcommonlang3jar.htm
-  [2]: http://www.java2s.com/Code/Jar/c/Downloadcommonlang3jar.htm
+  [2]: https://lh3.googleusercontent.com/JdYCFCQdtB_OSoYB_37UYfw1ELscYQzvyLeXh1pdoA=s0

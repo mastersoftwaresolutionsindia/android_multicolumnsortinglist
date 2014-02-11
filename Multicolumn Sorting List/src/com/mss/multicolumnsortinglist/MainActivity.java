@@ -16,7 +16,7 @@ import android.widget.ListView;
  */
 public class MainActivity extends Activity {
 
-	ListView			list1;
+	ListView			listView;
 	ListArrayAdapter	adapter;
 
 	String				names[];
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		list1 = (ListView) findViewById(R.id.listView1);
+		listView = (ListView) findViewById(R.id.listView1);
 		getList();
 	}
 
@@ -87,6 +87,6 @@ public class MainActivity extends Activity {
 		}
 
 		adapter = new ListArrayAdapter(getApplicationContext(), salary, title, names, age);
-		list1.setAdapter(adapter);
+		listView.setAdapter(adapter);
 	}
 }
